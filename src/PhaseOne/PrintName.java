@@ -1,3 +1,5 @@
+package PhaseOne;
+
 import java.util.Scanner;
 
 public class PrintName {

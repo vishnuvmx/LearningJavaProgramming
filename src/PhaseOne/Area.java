@@ -1,3 +1,5 @@
+package PhaseOne;
+
 import java.util.Scanner;
 
 public class Area {
@@ -13,7 +15,7 @@ public class Area {
         Scanner input = new Scanner(System.in);
 
         int radius = input.nextInt();
-        System.out.printf("Area of the circle: %.2f%n",  AreaOfCircle(radius));
+        System.out.printf("PhaseOne.Area of the circle: %.2f%n",  AreaOfCircle(radius));
         System.out.printf("Perimeter of the circle: %.2f%n",  PerimeterOfCircle(radius));
     }
 }
